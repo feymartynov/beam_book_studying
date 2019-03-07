@@ -113,5 +113,5 @@ defmodule Beamfile do
   end
 end
 
-# elxiir ./beamfile.exs ./example.beam
+# elixir ./beamfile.exs ./example.beam
 System.argv() |> List.first() |> Beamfile.read() |> IO.inspect()
